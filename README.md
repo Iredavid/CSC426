@@ -27,7 +27,7 @@ Features:
 
 Location:
 ```text
-Login-App/
+Login/
 ```
 
 ## Technologies Used
