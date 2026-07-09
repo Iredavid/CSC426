@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Issue | IRO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>IRO - Report Issue</h2>
+
+    <div>
+        <a href="dashboard.html" class="nav-link">Dashboard</a>
+        <button id="logout">Logout</button>
+    </div>
+</nav>
+
+<div class="container report-container">
+
+    <h2>Submit New Issue</h2>
+
+    <form id="reportForm">
+
+        <input
+            type="text"
+            id="title"
+            placeholder="Issue Title"
+            required>
+
+        <select id="category" required>
+
+            <option value="">Select Category</option>
+
+            <option>Security</option>
+
+            <option>Electricity</option>
+
+            <option>Water Supply</option>
+
+            <option>Road</option>
+
+            <option>Accommodation</option>
+
+            <option>School Facilities</option>
+
+            <option>Health</option>
+
+            <option>Others</option>
+
+        </select>
+
+        <input
+            type="text"
+            id="location"
+            placeholder="Location"
+            required>
+
+        <textarea
+            id="description"
+            rows="6"
+            placeholder="Describe the issue..."
+            required></textarea>
+
+        <button type="submit">
+
+            Submit Report
+
+        </button>
+
+    </form>
+
+</div>
+
+<script src="report.js"></script>
+
+</body>
+</html>

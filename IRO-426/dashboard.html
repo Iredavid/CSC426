@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav>
+
+<h2>IRO Dashboard</h2>
+
+<button id="logout">
+
+Logout
+
+</button>
+
+</nav>
+
+<div class="dashboard">
+
+<div class="card">
+
+<h3>Welcome</h3>
+
+<p id="name"></p>
+
+</div>
+
+<div class="card">
+
+<h3>Email</h3>
+
+<p id="email"></p>
+
+</div>
+
+<div class="card">
+
+<h3>Community</h3>
+
+<p id="community"></p>
+
+</div>
+
+<div class="card">
+
+<h3>Total Reports</h3>
+
+<h1 id="totalReports">0</h1>
+
+</div>
+
+<h2 style="margin:40px;">My Reports</h2>
+
+<table class="report-table">
+
+<thead>
+
+<tr>
+
+<th>Title</th>
+
+<th>Category</th>
+
+<th>Location</th>
+
+<th>Status</th>
+
+<th>Date</th>
+
+</tr>
+
+</thead>
+
+<tbody id="reportBody">
+
+</tbody>
+
+</table>
+</div>
+
+<script src="dashboard.js"></script>
+
+</body>
+
+</html>
